@@ -31,5 +31,3 @@ try:
     Add("1,2\n")
 except ValueError as e:
     assert str(e) == "Invalid input: trailing separator"
-
-assert Add("1,2\n") == 6
