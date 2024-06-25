@@ -12,4 +12,4 @@ assert Add("") == 0
 assert Add("1") == 1
 assert Add("2") == 2
 assert Add("1,2") == 3
-assert Add("10,20") == 25
+assert Add("10,20") == 30
