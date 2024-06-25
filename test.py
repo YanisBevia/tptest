@@ -14,5 +14,5 @@ assert Add("1,2") == 3
 assert Add("10,20") == 30
 assert Add("1,2,3,4,5") == 15
 assert Add("100,200,300") == 600
-assert Add("1\n2,3") == 5
+assert Add("1\n2,3") == 6
 assert Add("1,2\n3") == 6
