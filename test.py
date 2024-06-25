@@ -5,5 +5,5 @@ def Add(numbers: str) -> int:
 
 # Tests
 assert Add("") == 0
-assert Add("1") == 2
+assert Add("1") == 1
 assert Add("2") == 2
