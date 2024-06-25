@@ -9,4 +9,4 @@ def Add(numbers: str) -> int:
 assert Add("") == 0
 assert Add("10,20") == 30
 assert Add("1,2,3,4,5") == 15
-assert Add("100,200,300") == 400
+assert Add("100,200,300") == 600
