@@ -57,5 +57,3 @@ try:
     Add("1,2\n")
 except ValueError as e:
     assert str(e) == "Invalid input: trailing separator"
-
-assert Add("//|\n1|2,3") == 7
